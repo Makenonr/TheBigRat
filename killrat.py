@@ -1,5 +1,5 @@
 # killrat.py
-# Run this to COMPLETELY remove the STEALTH_IMMORTAL_2025 malware
+# Run this to COMPLETELY remove TheBigRat.py malware
 # This will kill all processes, remove all persistence, and self-destruct
 
 import os
@@ -371,3 +371,4 @@ if __name__ == "__main__":
     eradicator = MalwareEradicator()
 
     eradicator.execute_cleanup()
+
