@@ -1,4 +1,4 @@
-# KILL_SWITCH_ULTIMATE.py
+# killrat.py
 # Run this to COMPLETELY remove the STEALTH_IMMORTAL_2025 malware
 # This will kill all processes, remove all persistence, and self-destruct
 
@@ -369,4 +369,5 @@ if __name__ == "__main__":
         pass
     
     eradicator = MalwareEradicator()
+
     eradicator.execute_cleanup()
