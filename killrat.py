@@ -14,7 +14,7 @@ import ctypes
 class MalwareEradicator:
     def __init__(self):
         self.malware_patterns = [
-            "STEALTH_IMMORTAL_2025", "ultimate_blackhat", "monster",
+            "TheBigRat", "ultimate_blackhat", "monster",
             "windowshelper", "syshelp", "maint", "systemhelper",
             "IMMORTAL_BLACKHAT", "stealth_cleaner", "rat.py"
         ]
@@ -371,4 +371,5 @@ if __name__ == "__main__":
     eradicator = MalwareEradicator()
 
     eradicator.execute_cleanup()
+
 
